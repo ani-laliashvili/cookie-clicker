@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import time
 
+CHROME_DRIVER_PATH = 'C:\\...\\chromedriver'
 URL = 'https://orteil.dashnet.org/cookieclicker/'
-CHROME_DRIVER_PATH = 'C:\\Users\\alaliashvili\\Development\\chromedriver'
 
 driver = webdriver.Chrome(service=Service(CHROME_DRIVER_PATH))
 driver.get(URL)
